@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+.App {
+  text-align: center;
+}
+
+.head {
+  font-size: xxx-large;
+  font-family: 'Bebas Neue';
+  color: aliceblue;
+}
+
+.box{
+  background-color: aliceblue;
+  justify-items: center;
+  margin-left: 1cm;
+  margin-right: 1cm;
+  border-radius: 12px;
+
+}
+
+.navbar{
+  overflow: hidden;
+}
+
+.navbar a {
+  justify-content: center;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding: 14px 14px;
+  border-radius: 12px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.navbar a:hover {
+  background-color: rgb(202, 207, 212);
+}
