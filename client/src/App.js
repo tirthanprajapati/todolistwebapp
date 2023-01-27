@@ -1,16 +1,15 @@
 import './App.css';
+//components
+import Navbar from './components/navigationbar'
+import Todofrom from './components/todoform'
+import Currenttodo from './components/currenttodo'
 
 function App() {
   return (
     <div className="App">
-      <div className="head">Todo List</div>
-      <div className="box" >
-        <div className='navbar'>
-          <a href="#home">All Todo's</a>
-          <a href="#news">Active Todo's</a>
-          <a href="#contact">Done Todo's</a>
-        </div>
-      </div>
+      <Navbar/>
+      <Todofrom/>
+      <Currenttodo/>
     </div>
   );
 }

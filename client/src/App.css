@@ -2,25 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 .App {
   text-align: center;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 .head {
-  font-size: xxx-large;
+  font-size: 5em;
   font-family: 'Bebas Neue';
   color: aliceblue;
 }
 
 .box{
-  background-color: aliceblue;
   justify-items: center;
-  margin-left: 1cm;
-  margin-right: 1cm;
-  border-radius: 12px;
-
 }
 
 .navbar{
+  background-color: aliceblue;
   overflow: hidden;
+  border-radius: 12px;
 }
 
 .navbar a {
@@ -36,4 +35,22 @@
 
 .navbar a:hover {
   background-color: rgb(202, 207, 212);
+}
+
+.form{
+  margin-top: 1em;
+  background-color: aliceblue;
+  padding-top: 1em;
+  padding: 14px 14px;
+  border-radius: 12px;
+}
+
+input{
+  background-color: aliceblue;
+  font-family: 'Fira Sans', sans-serif;
+  width: 50%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  padding: 5px 5px;
 }
