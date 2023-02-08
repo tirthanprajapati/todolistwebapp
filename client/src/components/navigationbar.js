@@ -1,16 +1,9 @@
-const Navbar = () => {
+const Header = () => {
     return(
         <>
-        <div className="head">Todo List</div>
-            <div className="box" >
-            <div className='navbar'>
-            <a href="#all">All Todo's</a>
-            <a href="#active">Active Todo's</a>
-            <a href="#done">Done Todo's</a>
-            </div>
-        </div>
+        <div className="head">Todo List</div>        
         </>
     )
 }
 
-export default Navbar;
+export default Header;

@@ -1,15 +1,15 @@
-import './App.css';
+import "./App.css";
 //components
-import Navbar from './components/navigationbar'
-import Todofrom from './components/todoform'
-import Currenttodo from './components/currenttodo'
+import Todofrom from "./components/todoform";
+import Currenttodo from "./components/currenttodo";
+import Header from "./components/navigationbar";
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Todofrom/>
-      <Currenttodo/>
+      <Header />
+      <Todofrom />
+      <Currenttodo />
     </div>
   );
 }
