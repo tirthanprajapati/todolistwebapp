@@ -20,8 +20,8 @@ export const connection = () => {
         console.log('Database disconnected');
     })
 
-    mongoose.connection.on('error',()=>{
-        console.log('Error while connecting to the database',error.message);
+    mongoose.connection.on('error',(e)=>{
+        console.log('Error while connecting to the database',e.message);
     })
 }
 export default connection;
