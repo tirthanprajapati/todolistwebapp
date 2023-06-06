@@ -3,15 +3,13 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const USERNAME=process.env.DB_USERNAME;
-const PASSWORD=process.env.DB_PASSWORD;
+const URI=process.env.DB_URI;
 
 export const connection = () => {
     
     mongoose.set('strictQuery', false);
 
-    const url= `mongodb://${USERNAME}:${PASSWORD}@todolist.v0uoffe.mongodb.net/?retryWrites=true&w=majority`;
-    mongoose.connect(url ,{ useNewUrlParser: true });
+    mongoose.connect(URI ,{ useNewUrlParser: true });
     mongoose.connection.on('connected',()=>{
         console.log('Database connected Sucessfully');
     })
