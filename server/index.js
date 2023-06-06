@@ -20,3 +20,4 @@ app.listen(PORT, () =>
   console.log(`server started sucessfully on port ${PORT}`)
 );
 connection();
+module.exports=app;
